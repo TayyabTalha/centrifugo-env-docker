@@ -1,0 +1,28 @@
+{
+   "secret":"SECREAT",
+   "admin": true,
+   "admin_password":"ADMIN_PASSWORD",
+   "admin_secret":"ADMIN_SECREAT",
+   "connection_lifetime":0,
+   "anonymous":false,
+   "publish":true,
+   "watch":true,
+   "presence":true,
+   "join_leave":true,
+   "history_size":10,
+   "history_lifetime":0,
+   "subscribe_to_publish":true,
+   "recover":true,
+   "namespaces":[
+      {
+         "name":"public",
+         "publish":true,
+         "watch":true,
+         "presence":true,
+         "join_leave":true,
+         "history_size":10,
+         "history_lifetime":30
+      }
+   ],
+   "api_key": "API_KEY"
+}
